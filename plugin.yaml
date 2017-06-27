@@ -1,0 +1,31 @@
+plugin:
+    name: 'heathdutton.charity::lang.plugin.name'
+    description: 'heathdutton.charity::lang.plugin.description'
+    author: 'Heath Dutton'
+    icon: oc-icon-gift
+    homepage: 'http://fix.christmas'
+navigation:
+    charity:
+        label: 'heathdutton.charity::lang.plugin.name'
+        url: heathdutton/charity/donations
+        icon: icon-gift
+        sideMenu:
+            donations:
+                label: 'heathdutton.charity::lang.donations'
+                url: heathdutton/charity/donations
+                icon: icon-money
+                permissions:
+                    - donations_edit
+            organizations:
+                label: 'heathdutton.charity::lang.org_organizations'
+                url: heathdutton/charity/organizations
+                icon: icon-building
+                permissions:
+                    - org_edit
+permissions:
+    org_edit:
+        tab: 'heathdutton.charity::lang.charity'
+        label: 'heathdutton.charity::lang.org_edit'
+    donations_edit:
+        tab: 'heathdutton.charity::lang.donations'
+        label: 'heathdutton.charity::lang.donations_edit'

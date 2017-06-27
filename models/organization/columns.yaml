@@ -1,0 +1,22 @@
+columns:
+    name:
+        label: 'heathdutton.charity::lang.org_name'
+        type: text
+        searchable: true
+        sortable: true
+    donation_support:
+        label: 'heathdutton.charity::lang.org_donation_support'
+        type: switch
+        sortable: true
+    bbb_accredited:
+        label: 'heathdutton.charity::lang.org_bbb_accredited'
+        type: switch
+        sortable: true
+    created_at:
+        label: 'heathdutton.charity::lang.org_created_at'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: 'heathdutton.charity::lang.org_updated_at'
+        type: datetime
+        sortable: true

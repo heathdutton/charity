@@ -1,0 +1,11 @@
+name: Organizations
+modelClass: HeathDutton\Charity\Models\Organization
+form: $/heathdutton/charity/models/organization/fields.yaml
+defaultRedirect: heathdutton/charity/organizations
+create:
+    redirect: 'heathdutton/charity/organizations/update/:id'
+    redirectClose: heathdutton/charity/organizations
+update:
+    redirect: heathdutton/charity/organizations
+    redirectClose: heathdutton/charity/organizations
+preview: {  }

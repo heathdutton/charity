@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table heathdutton_charity_org'
+    - create_heathdutton_charity_org.php
+1.0.3:
+    - 'Created table heathdutton_charity_user'
+    - create_heathdutton_charity_user.php
+1.0.4:
+    - 'Created table heathdutton_charity_donation'
+    - create_heathdutton_charity_donation.php

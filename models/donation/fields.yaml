@@ -1,0 +1,17 @@
+fields:
+    org_id:
+        label: 'heathdutton.charity::lang.org_name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: dropdown
+    amount:
+        label: 'heathdutton.charity::lang.donation_amount'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    user_id:
+        label: 'heathdutton.charity::lang.donation_user_id'
+        oc.commentPosition: ''
+        span: auto
+        type: text

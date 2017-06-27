@@ -1,0 +1,39 @@
+fields:
+    name:
+        label: 'heathdutton.charity::lang.org_name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    home_url:
+        label: 'heathdutton.charity::lang.Homepage URL'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    logo_url:
+        label: 'heathdutton.charity::lang.org_logo_url'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    donation_support:
+        label: 'heathdutton.charity::lang.org_donation_support'
+        span: auto
+        type: switch
+    donation_url:
+        label: 'heathdutton.charity::lang.org_donation_url'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    donation_iframe:
+        label: 'heathdutton.charity::lang.org_donation_iframe'
+        span: auto
+        type: switch
+    bbb_url:
+        label: 'heathdutton.charity::lang.org_bbb_url'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    bbb_accredited:
+        label: 'heathdutton.charity::lang.org_bbb_accredited'
+        span: auto
+        type: switch

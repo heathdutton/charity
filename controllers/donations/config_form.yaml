@@ -1,0 +1,11 @@
+name: Donations
+modelClass: HeathDutton\Charity\Models\Donation
+form: $/heathdutton/charity/models/donation/fields.yaml
+defaultRedirect: heathdutton/charity/donations
+create:
+    redirect: 'heathdutton/charity/donations/update/:id'
+    redirectClose: heathdutton/charity/donations
+update:
+    redirect: heathdutton/charity/donations
+    redirectClose: heathdutton/charity/donations
+preview: {  }

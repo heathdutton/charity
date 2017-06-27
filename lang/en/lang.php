@@ -1,0 +1,23 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Charity',
+        'description' => 'Allows users to sponsor charities with their social presence.',
+    ],
+    'org_name' => 'Organization Name',
+    'Homepage URL' => 'org_home_url',
+    'org_logo_url' => 'Logo URL',
+    'org_donation_support' => 'Online Donation Support',
+    'org_donation_url' => 'Online Donation URL',
+    'org_donation_iframe' => 'Iframe Supported',
+    'org_bbb_url' => 'BBB / Wise Giving Alliance URL',
+    'org_bbb_accredited' => 'Is Accredited by the BBB / Wise Giving Alliance.',
+    'org_created_at' => 'Created At',
+    'org_updated_at' => 'Updated At',
+    'org_organizations' => 'Organizations',
+    'org_edit' => 'Can edit/delete organizations',
+    'charity' => 'Charity',
+    'donation_amount' => 'Amount in Cents',
+    'donation_user_id' => 'User ID',
+    'donations' => 'Donations',
+    'donations_edit' => 'Edit/View Donations',
+];

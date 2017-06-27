@@ -1,0 +1,11 @@
+title: Donations
+modelClass: HeathDutton\Charity\Models\Donation
+list: $/heathdutton/charity/models/donation/columns.yaml
+recordUrl: 'heathdutton/charity/donations/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
