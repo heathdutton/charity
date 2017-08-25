@@ -14,6 +14,7 @@ class CreateHeathduttonCharityDonation extends Migration
             $table->integer('org_id')->unsigned()->index();
             $table->integer('amount')->nullable()->unsigned()->index();
             $table->integer('user_id')->nullable()->unsigned()->index();
+            $table->string('ip_address')->nullable()->index();
             $table->timestamp('created_at')->nullable()->index();
             $table->timestamp('updated_at')->nullable();
         });
