@@ -11,6 +11,7 @@ class CreateHeathduttonCharityOrg extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
             $table->string('name', 255)->nullable()->index();
+            $table->string('slug', 255)->nullable()->index();
             $table->string('home_url', 1024)->nullable();
             $table->string('logo_url', 1024)->nullable();
             $table->boolean('donation_support')->default(0)->index();

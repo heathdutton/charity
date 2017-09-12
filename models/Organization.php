@@ -7,9 +7,14 @@ use Model;
  */
 class Organization extends Model
 {
+    use \October\Rain\Database\Traits\Sluggable;
+    use \October\Rain\Database\Traits\SoftDelete;
     use \October\Rain\Database\Traits\Validation;
 
-    use \October\Rain\Database\Traits\SoftDelete;
+    /**
+     * @var array Generate slugs for these attributes.
+     */
+    protected $slugs = ['slug' => 'name'];
 
     protected $dates = ['deleted_at'];
 

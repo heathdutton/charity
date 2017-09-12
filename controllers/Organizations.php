@@ -17,6 +17,6 @@ class Organizations extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('HeathDutton.Charity', 'organizations');
+        BackendMenu::setContext('HeathDutton.Charity', 'charity', 'organizations');
     }
 }

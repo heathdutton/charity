@@ -12,6 +12,9 @@ class Plugin extends PluginBase
 
     public function registerComponents()
     {
+        return [
+            'Heathdutton\Charity\Components\Organization' => 'organization'
+        ];
     }
 
     public function registerSettings()

@@ -5,6 +5,12 @@ fields:
         span: auto
         required: 1
         type: text
+    slug:
+        label: 'heathdutton.charity::lang.org_slug'
+        oc.commentPosition: ''
+        span: auto
+        required: 0
+        type: text
     home_url:
         label: 'heathdutton.charity::lang.Homepage URL'
         oc.commentPosition: ''

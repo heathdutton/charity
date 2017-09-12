@@ -4,6 +4,11 @@ columns:
         type: text
         searchable: true
         sortable: true
+    slug:
+        label: 'heathdutton.charity::lang.org_slug'
+        type: text
+        searchable: true
+        sortable: true
     donation_support:
         label: 'heathdutton.charity::lang.org_donation_support'
         type: switch
